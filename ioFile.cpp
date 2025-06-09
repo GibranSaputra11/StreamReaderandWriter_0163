@@ -29,6 +29,9 @@ int main(){
     // Mmbuat objek input file stream
     ifstream infile;
 
+    // Mmebuak file yang telah ditulis
+    infile.open("Contohfile.text");
+
     cout << endl << ">= Membuka dan membaca file " << endl;
     // Jika file ada maka
     if (infile.is_open()){
