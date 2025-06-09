@@ -14,5 +14,10 @@ int main(){
     }
     catch (exception& e){
         //Penangkapan mmenggunakan obyek exceptio
+        cout << e.what() << endl;
+        /*Akana di eksekusi karena array data hanya memiliki 3 elemen*/
     }
+    cout << "Baris program yang terahir" << endl;
+    /*Pennada 2 : Bahwa program berjalan tanpa berhanti meskipun terjadi kesalahn*/
+    return 0;
 }
