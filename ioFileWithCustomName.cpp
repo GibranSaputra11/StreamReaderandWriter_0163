@@ -34,7 +34,7 @@ int main(){
     ifstream infile;
 
     // Mmebuak file yang telah ditulis
-    infile.open("Contohfile.text");
+    infile.open(nameFile + ".text");
 
     cout << endl << ">= Membuka dan membaca file " << endl;
     // Jika file ada maka
