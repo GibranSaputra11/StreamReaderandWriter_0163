@@ -13,7 +13,7 @@ int main(){
     // Membaut objek output file stream
     ofstream outfile;
     // Membuka file untuk ditulisi.
-    outfile.open(nameFile + ".text");
+    outfile.open(nameFile + ".txt");
 
     cout << ">= Menulis file, \'q\' untuk keluar " << endl;
 
@@ -34,7 +34,7 @@ int main(){
     ifstream infile;
 
     // Mmebuak file yang telah ditulis
-    infile.open(nameFile + ".text");
+    infile.open(nameFile + ".txt");
 
     cout << endl << ">= Membuka dan membaca file " << endl;
     // Jika file ada maka
