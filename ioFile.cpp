@@ -30,4 +30,14 @@ int main(){
     ifstream infile;
 
     cout << endl << ">= Membuka dan membaca file " << endl;
+    // Jika file ada maka
+    if (infile.is_open()){
+        // Melakukan perulanagn setiap baris
+        while (getline(infile, baris)){
+            // dan tampilkan di sini
+            cout << baris << '\n';
+        }
+        // tutup file tersebut setelah selesai
+        infile.close();
+    }
 }
