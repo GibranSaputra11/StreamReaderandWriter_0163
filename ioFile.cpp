@@ -28,4 +28,6 @@ int main(){
 
     // Mmbuat objek input file stream
     ifstream infile;
+
+    cout << endl << ">= Membuka dan membaca file " << endl;
 }
