@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    string baris;
+    string baris, name;
 
     // Membaut objek output file stream
     ofstream outfile;
