@@ -4,12 +4,16 @@
 using namespace std;
 
 int main(){
-    string baris, name;
+    string baris, nameFile;
+
+    cout << "Masukan name file : ";
+    cin >> nameFile;
+    cin.ignore();
 
     // Membaut objek output file stream
     ofstream outfile;
     // Membuka file untuk ditulisi.
-    outfile.open("Contohfile.text");
+    outfile.open(nameFile + ".text");
 
     cout << ">= Menulis file, \'q\' untuk keluar " << endl;
 
