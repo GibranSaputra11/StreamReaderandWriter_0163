@@ -12,4 +12,8 @@ int main(){
     outfile.open("Contohfile.text");
 
     cout << ">= Menulis file, \'q\' untuk keluar " << endl;
+
+    // Unlimited loop untuk menulis
+    while(true){
+    }
 }
