@@ -8,4 +8,6 @@ int main(){
 
     // Membaut objek output file stream
     ofstream outfile;
+    // Membuka file untuk ditulisi.
+    outfile.open("Contohfile.text");
 }
